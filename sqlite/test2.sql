@@ -144,5 +144,7 @@ WITH Product_counts AS (
 SELECT Product_Name
 FROM Product_counts
 WHERE total > 1;
+
+SELECT * FROM sqlite_master;
 */
 
